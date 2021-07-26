@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+nav{
+  background-color: rgb(18, 80, 6);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  max-width: 1265px;
+}
+nav a{
+  color: aliceblue;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.welcomestyle {
+  background-color: rgba(4, 138, 4, 0.637);
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: rgb(1, 29, 20);
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  height: 80vh;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(209, 241, 190);
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.projects-section-header {
+  text-align: center;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.sociallink {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#social{
+  background-color: rgb(18, 80, 6);
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    border-radius: 50%;
+}
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+
+  .fa-fire{
+    color: rgb(245, 244, 250);
+  }
+
+  footer{
+    background-color: rgb(18, 80, 6);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
